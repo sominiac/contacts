@@ -1,0 +1,44 @@
+.form-change {
+    width: 100%;
+    padding: 3rem;
+
+    &__content {
+        min-height: calc(100vh - 19rem);
+        max-height: calc(100vh - 19rem);
+        overflow: auto;
+        background-color: #caf0f8;
+        padding: 2rem;
+    }
+    
+    &__item {
+        padding: 4rem 0 2rem 1rem;
+    
+        &:first-child {
+            padding: 1rem 0 2rem 1rem;
+        }
+    }
+    
+    &__value {
+        padding-bottom: 1rem;
+        border-bottom: .2rem solid #609DA9;
+    }
+    
+    &__buttons {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 2rem 0;
+    }
+    
+    &__save, &__close {
+        font-weight: 300;
+        font-size: 2rem;
+        background-color: #E6E7F6;
+        border-radius: 3rem;
+        padding: 1rem 2rem;
+    }
+    
+    &__save {
+        margin-right: 2rem;
+    }
+}
