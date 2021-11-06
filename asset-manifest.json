@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/contacts/static/css/main.048f61b0.chunk.css",
+    "main.js": "/contacts/static/js/main.ee5dbb66.chunk.js",
+    "main.js.map": "/contacts/static/js/main.ee5dbb66.chunk.js.map",
+    "runtime-main.js": "/contacts/static/js/runtime-main.fe5bf3a4.js",
+    "runtime-main.js.map": "/contacts/static/js/runtime-main.fe5bf3a4.js.map",
+    "static/js/2.7b75e1c9.chunk.js": "/contacts/static/js/2.7b75e1c9.chunk.js",
+    "static/js/2.7b75e1c9.chunk.js.map": "/contacts/static/js/2.7b75e1c9.chunk.js.map",
+    "index.html": "/contacts/index.html",
+    "static/css/main.048f61b0.chunk.css.map": "/contacts/static/css/main.048f61b0.chunk.css.map",
+    "static/js/2.7b75e1c9.chunk.js.LICENSE.txt": "/contacts/static/js/2.7b75e1c9.chunk.js.LICENSE.txt",
+    "static/media/contactsInformation.scss": "/contacts/static/media/pencil.c4680090.svg",
+    "static/media/default-user.32c0f174.svg": "/contacts/static/media/default-user.32c0f174.svg",
+    "static/media/contacts.scss": "/contacts/static/media/right-arrow.c143baba.svg",
+    "static/media/Placeholder.scss": "/contacts/static/media/sad-emotion.09e426b8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe5bf3a4.js",
+    "static/js/2.7b75e1c9.chunk.js",
+    "static/css/main.048f61b0.chunk.css",
+    "static/js/main.ee5dbb66.chunk.js"
+  ]
+}
