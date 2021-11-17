@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts || TestTask</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="section contacts__section">
+        <div class="container">
+            <div class="contacts__inner">
+
+                <div class="contacts__left-column">
+                    <h2 class="contacts__left-column-title">Contacts</h2>
+                    <div class="contacts__actions">
+                        <div class="contacts__actions-sorting">
+                            <button class="contacts__actions-asc">Sorting<br><span>From A to Z</span></button>
+                            <button class="contacts__actions-desc">Sorting<br><span>From Z to A</span></button>
+                        </div>
+                        <input class="contacts__actions-search" type="text" placeholder="Search...">
+                    </div>
+                    <div class="contacts__left-column-wrapper"></div>
+                </div>
+
+                <div class="contacts__right-column">
+                    <div class="contacts__right-column-content">
+                        <h1 class="contacts__right-column-title">It looks like you haven't selected any contacts</h1>
+                        <h2 class="contacts__right-column-subtitle">Tap on contact to see more information</h2>
+                    </div>
+                    <div class="contacts__right-column-information hidden">
+                        <div class="contacts__right-column-information-wrapper">
+                            <div class="top contacts__right-column-top">
+                                <img class="top__bg-image" src="" alt="Contact image background">
+                                <button class="top__change" title="Change contact"></button>
+                                <button class="top__close" title="Close information about contact"></button>
+                                <div class="top__information">
+                                    <div class="top__information-image-wrapper">
+                                        <img class="top__information-image" src="" alt="Contact image">
+                                    </div>
+                                    <h2 class="top__information-name"></h2>
+                                    <div class="top__information-buttons hidden">
+                                        <button class="top__information-change" title="Change contact">Change</button>
+                                        <button class="top__information-close"
+                                            title="Close information about contact">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-information"></div>
+                        </div>
+                        <div class="contacts__right-column-change-information-wrapper hidden">
+                            <form class="change__form" action="" id="change__form"></form>
+                            <div class="change_buttons">
+                                <input class="change_submit" form="change__form" type="submit" value="Submit">
+                                <button class="change_close">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section loading__section">
+        <img class="loading__image" src="./src/assets/icons/loading.svg" alt="loading image">
+    </section>
+
+    <section class="section error__section hidden">
+        <div class="error__content">
+            <h2 class="error__content-title">Ups.. Something went wrong..</h2>
+            <h3 class="error__content-subtitle">Try to reload the page</h3>
+        </div>
+    </section>
+
+    <script src="./src/scripts/ajaxRequest.js"></script>
+    <script src="./src/scripts/app.js"></script>
+</body>
+
+</html>

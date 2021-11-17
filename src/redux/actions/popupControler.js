@@ -1,3 +1,0 @@
-const setPopupControler = (selectedWindow) => ({
-    selectedWindow
-});
